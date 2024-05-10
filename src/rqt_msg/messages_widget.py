@@ -36,9 +36,8 @@ from ament_index_python.resources import get_resource
 
 from python_qt_binding import loadUi
 from python_qt_binding.QtCore import Qt
-from python_qt_binding.QtGui import QIcon
-from python_qt_binding.QtWidgets import (QAction, QMenu,
-                                         QTreeView, QWidget)
+from python_qt_binding.QtGui import QIcon, QAction
+from python_qt_binding.QtWidgets import (QMenu, QTreeView, QWidget)
 
 from rclpy import logging
 
